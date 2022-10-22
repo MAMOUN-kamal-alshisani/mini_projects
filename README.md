@@ -6,4 +6,4 @@
 
 ### current projects count or pages : 3
 
-[mini](https://mamoun-kamal-alshisani.github.io/mini_projects/html/watch.html)
+### project link: [mini_projects](https://mamoun-kamal-alshisani.github.io/mini_projects/html/watch.html)
