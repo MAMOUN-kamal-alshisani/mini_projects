@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/cal.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <header>
+        <div class="nav_container">
+        <ul class="nav_menu">
+            <li class="nav_list"><a href="../html/watch.html">Time&Watch</a></li>
+            <li class="nav_list"><a href="../html/todo.html">ToDo</a></li>
+            <li class="nav_list"><a href="../html/Calculator.html">Calculator</a></li>
+            <li class="nav_list"><a href="../html/todo.html">ToDo</a></li>
+        </ul>
+           
+        </nav>
+    </div>
+    </header>
+    <main>
+        <div class="cal_container">
+    <div class="calculator">
+                <div class="outPut">
+                    <div class="process">0</div>
+                    <div class="result"></div>
+                </div>
+                <div class="inPut">
+
+                    
+                    <button id="forward_btn" class="btn" onclick="thesisForWard()">(</button>
+                    <button id="backward_btn" class="btn" onclick="thesisBackWard()">)</button>
+                    <button id="del_btn" class="btn" onclick="del()">Del</button>
+
+                    <button  id="seven_btn" class="btn" onclick="addSeven()">7</button>
+                    <button id="eight" class="btn" onclick="addEight()">8</button>
+                    <button id="nine_btn" class="btn" onclick="addNine()">9</button>
+                    <button id="minus_btn" class="btn" onclick="subtract()">-</button>
+                   
+                    <button id="six_btn" class="btn" onclick="addSix()">6</button>
+                    <button id="five_btn" class="btn" onclick="addFive()">5</button>
+                    <button id="four_btn" class="btn" onclick="addFour()">4</button>
+                    <button id="plus" class="btn" onclick="concat()">+</button>
+                    
+                    
+                    <button id="three_btn" class="btn" onclick="addThree()">3</button>
+                    <button id="Two_btn" class="btn" onclick="addTwo()">2</button>
+                    <button id="One_btn" class="btn" onclick="addOne()">1</button>
+                    <button id="x_btn" class="btn" onclick="multiplication()">x</button>
+                    
+                    <button id="clr_btn"  class="btn" onclick="clr()">C</button>
+                    <button id="zero_btn" class="btn" onclick="addZero()">0</button>
+                    <button id="divide_btn" class="btn" onclick="division()">÷</button>
+                    <button id="equal_btn" class="btn" onclick="equal()">=</button>
+                    <button id="dot_btn" class="btn" onclick="dot()">.</button>
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p
+        id="copyright"
+        style="color: rgb(250, 252, 255); text-align: center; margin-top: 15px"
+      >
+        &copy; Mamoun Bursi Al-shishani
+      </p>
+      <nav class="navDiv">
+        <a
+          href="https://www.linkedin.com/in/mamounalshishani-350277210"
+          target="_blank"
+          ><img
+            src="https://img.icons8.com/color/48/000000/linkedin.png"
+            alt="linkedIn"
+        /></a>
+        <a
+          href="https://github.com/MAMOUN-kamal-alshisani?tab=repositories"
+          target="_blank"
+          ><img
+            src="https://img.icons8.com/3d-fluency/48/000000/github.png"
+            alt="GitHub"
+        /></a>
+        <a href="mailto:mamoun.bursi@yahoo.com" target="_blank"
+          ><img
+            src="https://img.icons8.com/fluency/48/000000/mail.png"
+            alt="mail"
+        /></a>
+      </nav>
+    </footer>
+</body>
+<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+<script src="../js/cal.js"></script>
+</html>

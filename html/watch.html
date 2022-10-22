@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>watchs</title>
+</head>
+<body>
+
+    <header>
+<nav class="head_nav">
+<ul class="nav_menu">
+    <li class="nav_list"><a href="../html/watch.html">Time&Watch</a></li>
+    <li class="nav_list"><a href="../html/todo.html">ToDo</a></li>
+    <li class="nav_list"><a href="../html/Calculator.html">Calculator</a></li>
+    <li class="nav_list"><a href="../html/todo.html">ToDo</a></li>
+</ul>
+   
+</nav>
+    </header>
+    <main>
+        <div class="time_watch_container">
+            <h1 id="time-header"> Time  </h1>
+            <h1 class="date" onload="timeWatch()"></h1>
+        </div>
+
+        <div class="wt_main_container">
+            <div class="stop_watch_div">
+                <h1 id="stop_watch_header">Stop Watch</h1>
+                <h1 id="stop_watch">00:00:00</h1>
+           
+           
+            <div class="btn_container">
+                <button onclick="startWatch(true)" id="start_btn" class="watch_btn">start</button>
+                <button onclick="pause()" class="watch_btn">stop</button>
+                <button onclick="reset()" class="watch_btn">reset</button>
+            </div>
+        </div>
+        
+    </div>
+    <div class="counter_div">
+        <h1 id="counter_header">counter</h1>
+        <h1 id="counter_h1">
+0
+        </h1>
+        <div class="btn_container">
+        <button onclick="increment()" id="inc" class="counter_btn">Increment</button>
+        <button onclick="decrement()" id="dec" class="counter_btn" >Decrement</button>
+        <button onclick="rest()" class="counter_btn">Rest</button>
+    </div>
+    </div>
+    </main>
+    <footer></footer>
+</body>
+<script src="../js/watch.js"></script>
+</html>
