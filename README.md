@@ -1,9 +1,12 @@
-# mini_projects
+# Mini_projects
 
-## `author: Mamoun kamal bursi`
+## `Author: Mamoun kamal bursi`
 
-### multi vanilla javascript mini projects
+### Multi vanilla javascript mini projects
 
-### current projects count or pages : 3
+### Current projects count or pages : 4
 
-### project link: [mini_projects](https://mamoun-kamal-alshisani.github.io/mini_projects/html/watch.html)
+### Only the most basic frontEnd tools are used to build those projects 
+
+### Project link:  [mini_projects](https://mamoun-kamal-alshisani.github.io/mini_projects/html/watch.html)
+
