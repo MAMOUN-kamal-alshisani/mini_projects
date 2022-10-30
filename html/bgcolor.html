@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="../css/todo.css">
-    <title>ToDo List</title>
+    <link rel="stylesheet" href="../css/bg.css">
+    <title>background color generator</title>
 </head>
 <body>
     <header>
-        <nav class="head_nav">
+        <div class="nav_container">
             <ul class="nav_menu">
               <li class="nav_list"><a href="../html/watch.html">Watch</a></li>
               <li class="nav_list"><a href="../html/todo.html">ToDo</a></li>
@@ -21,25 +20,20 @@
             </ul>
                
             </nav>
+        </div>
     </header>
     <main>
-        <h1>To Do List</h1>
-        <div class="all_div">
-            <div class="form_div">
-<form id="form">
-    <input type="text" name="list" id="text_input" maxlength="50" placeholder="add to the list">
-    <button id="btn" type="submit">add</button>
-</form >
-</div>
-<div id="item_div">
-
-<!-- <ul id="list_menu">
-</ul> -->
-
-</div>
-
-</div>
+        <div class="cl_container">
+            <div class="text_container">
+                <h1 id="text_header">background color: </h1>
+            </div>
+        <div class="btns_container">
+            <button id="hex_btn" class="btn">generate hex color</button>
+            <button id="rgb_btn" class="btn">generate rgb color</button>
+        </div>
+    </div>
     </main>
+
     <footer>
         <p
         id="copyright"
@@ -70,5 +64,5 @@
       </nav>
     </footer>
 </body>
-<script src="../js/todo.js"></script>
+<script src="../js/bg.js"></script>
 </html>
